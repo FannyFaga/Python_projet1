@@ -1,4 +1,4 @@
-# Documentation : Changer l'adresse MAC avec Python
+# Project: Changer l'adresse MAC avec Python
 
 ## Description
 
@@ -6,7 +6,7 @@ Ce script Python permet de modifier l'adresse MAC d'une interface réseau sous L
 
 ## Prérequis
 
-1. **Système d'exploitation** : Linux (Debian, Ubuntu, Kali, etc.).
+1. *Système d'exploitation* : Linux (Debian, Ubuntu, Kali, etc.).
 2. **Permissions root** : Le script doit être exécuté avec des privilèges administratifs (`sudo`).
 3. **Python 3** : Assurez-vous que Python 3 est installé sur votre système (`python3 --version`).
 
@@ -31,7 +31,7 @@ chmod +x change_mac.py
 ### 3.Exécuter le script
 
 ### 4. Vérifier le changement d'adresse MAC
-Après exécution, vérifiez si l'adresse MAC a été modifiée avec :
+Après exécution, vérifiez si l'adresse MAC a été modifiée avec:
 ```bash
 ifconfig eth0
 ```
@@ -52,7 +52,7 @@ ip link show eth0
    - L'interface est réactivée (`up`).
 4. **Vérification du changement** :
    - Le script récupère et affiche la nouvelle adresse MAC pour confirmer la modification.
-## Sécurité
+ Sécurité
 Changer l'adresse MAC peut être détecté par certains systèmes de sécurité réseau. Assurez-vous d'avoir l'autorisation nécessaire avant d'utiliser ce script.
 
 
